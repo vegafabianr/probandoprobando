@@ -1,0 +1,96 @@
+/* Colores: Salmón: FCD3C1, Verde: CCE7D3, Amarillo: FFF9AE,
+    Fuccia: EC008C, Morado: A54686 */
+
+
+.degradado {
+    display: block;
+    width: 100%;
+    height: 100vh;
+    background-image: linear-gradient(to bottom, #fff 40%, #FCD3C1 100%);
+    background-size: 100% 100%;
+    background-position: 40% 0%;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    align-items: center;
+  }
+
+  #photoName {
+    display:flex;
+    flex-flow: wrap;
+  }
+
+  #photoName img,
+  #photoname h1 {
+    max-width: 100%;
+    align-content: center;
+  }
+
+h1 {
+     color: #DC4541;
+     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+     font-size: 3rem;
+     font-weight: 300;
+   
+     margin-top: 1.5rem;
+     text-align: center;
+     padding: 0rem 0.5rem 0rem 0.5rem;
+
+    }
+
+.aboutMe {
+    margin:  0% 10%;
+    margin-top: 2rem;
+    text-align: center;
+    position:relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.aboutMe p {
+    min-width: 80%;
+    font-size: larger;
+}
+
+.datos p:first-of-type{
+  margin-bottom: auto;
+}
+.datos p:last-of-type{
+  margin-bottom: auto;
+}
+
+img.logo {
+     margin-top: 2rem;
+     margin-left: 1rem;
+     margin-right: 1rem;
+     width: 30rem;
+
+}
+
+.btn {
+    margin-top: 2rem;
+    background-color: #A54686;
+    border-radius: 8px;
+    color: white;
+    display: inline-block;
+    text-align: center;
+    margin-bottom: 1rem;
+}
+
+
+  .icon {
+    display: inline-flex;
+    align-items: center;
+    margin-right: 10px;
+    color: #A54686;
+  }
+
+.validez{
+  text-align: center;
+  margin-top: 1rem;
+}
+
+.datos{
+  margin-top: 2rem;
+  margin-left: 3rem;
+  align-items: left;
+}
