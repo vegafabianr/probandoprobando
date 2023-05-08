@@ -1,6 +1,12 @@
 /* Colores: Salmón: FCD3C1, Verde: CCE7D3, Amarillo: FFF9AE,
     Fuccia: EC008C, Morado: A54686 */
 
+html, body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    overflow-x: hidden;
+    }
 
 .degradado {
     display: flex;
